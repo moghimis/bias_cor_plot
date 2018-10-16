@@ -1,9 +1,21 @@
-
-
-
-
 import numpy as np
 import matplotlib.pyplot as plt
+
+
+
+__author__ = "Saeed Moghimi"
+__copyright__ = "Copyright 2017, NOAA"
+__license__ = "GPL"
+__version__ = "1.1"
+__email__ = "moghimis@gmail.com"
+
+
+"""
+Simple routine to plot a descriptive plot for bias correction
+
+"""
+
+
 
 def set_leg(ax, loc = None):
     if loc is None:
